@@ -1,0 +1,16 @@
+{
+  "name": "@anvil/exam-drill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic, priority-weighted question drill with a mastery summary.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "start": "node src/cli.mjs",
+    "verify": "node verify.mjs"
+  },
+  "license": "MIT"
+}
